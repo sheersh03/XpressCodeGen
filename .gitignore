@@ -1,24 +1,11 @@
-node_modules
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Next.js
+# Next.js build output
 .next/
 out/
-!.next/placeholder.txt   # (only if you intentionally keep a placeholder)
 
-# Build artifacts
-dist/
-coverage/
-.vscode/
+# Node.js dependencies
+node_modules/
+
+# Logs and env files
+*.log
+.env*
 .DS_Store
-
-# Env & local config
-.env
-.env.*
-.vercel/
-.turbo/
